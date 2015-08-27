@@ -1,1866 +1,655 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00D187552B399238D0BC1D57</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3EFE40B54B44C1991B720614</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>01C0BD35795B04791BB3DBDB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>70BBE91915262D20DBB4D784</string>
-				<string>9A7719B3FDFD9696850C25E9</string>
-				<string>993E98E635CFD2A550AB545E</string>
-				<string>A0115A38A685DDB85F51DD5E</string>
-				<string>97DCB454E58B8F28E401748C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0280BFCE7063D909FD3B8A69</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>BCC8178DD754607F45B307CD</string>
-				<string>D0134C13539676908D188ACF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0420025180E77129043EA063</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>2D337B7A2C3F0C9104A9A282</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>60C066A3C0C629FC7C2A03EA</string>
-			<key>remoteInfo</key>
-			<string>Pods-InfColorPicker</string>
-		</dict>
-		<key>0A4835A829BC792CF0E78D0E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>39F2A5983344A594237ABB39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0CC0C36FD8E4C5BA04F0015E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E8E43E4F09383DD19DDCA99</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D8FB315170814381C322A21B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>13CC2B14745F75B6F45874FE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5085284345C9E3BBFF14F41E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>14197177BCD1FFAF8A93857B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E40E5DA9C273045FC827CC8C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-FTFontSelector/Pods-FTFontSelector-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1573A225197B27D5D32D18BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>InfHSBSupport.m</string>
-			<key>path</key>
-			<string>InfColorPicker/InfHSBSupport.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1840B5ED4FAA02CE8356FBBA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>InfColorSquarePicker.h</string>
-			<key>path</key>
-			<string>InfColorPicker/InfColorSquarePicker.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18CF06B7ABA1DFCC0BA00554</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EB0FFEC1B1440580579FE630</string>
-				<string>0A4835A829BC792CF0E78D0E</string>
-				<string>90EF29B3AA6E52BE17F4223F</string>
-				<string>F328A5216787EE20DE189435</string>
-				<string>7ED93305E5ABEC06B47788C6</string>
-				<string>D81A18FF513610C5299DC8E8</string>
-				<string>8ABDD385C349064A9CB67DB7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1A5B314E9C3F5B008186AD02</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FAC2D99B4B817032162CF65F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1C6E8C67C6C30CC2A1859F35</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FTFontFamilyMembersViewController.m</string>
-			<key>path</key>
-			<string>Classes/Private/FTFontFamilyMembersViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>25D30C697F061D212F50331E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>52AAD78D14C5BCE64269E57D</string>
-				<string>93EB15D8D4E33B761521DCFE</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2D337B7A2C3F0C9104A9A282</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>0280BFCE7063D909FD3B8A69</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>B32C7FC80CE3DCA567FF3C41</string>
-			<key>productRefGroup</key>
-			<string>72605278B09AE8E909262B08</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>65B9D01946BF3C56D59D3D26</string>
-				<string>79E8F31EF6CCF0CB74F239ED</string>
-				<string>60C066A3C0C629FC7C2A03EA</string>
-			</array>
-		</dict>
-		<key>2FB7795F1146380B40EAD177</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>512D15C6779C7D20DD75F280</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>30E23C5DDB136C127A9BD85E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>InfSourceColorView.m</string>
-			<key>path</key>
-			<string>InfColorPicker/InfSourceColorView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>31DDF2CF60F8D0F321151C00</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>35BE5CD6A1EFEA2F4061F25E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>366CB13F7563BC94CD6044C3</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-InfColorPicker.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>377D58C6D75630182710F303</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>InfColorPickerController.h</string>
-			<key>path</key>
-			<string>InfColorPicker/InfColorPickerController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39F2A5983344A594237ABB39</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>InfColorIndicatorView.h</string>
-			<key>path</key>
-			<string>InfColorPicker/InfColorIndicatorView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B2AEF001435A625164F4017</key>
-		<dict>
-			<key>fileRef</key>
-			<string>74B271F4DBE68E0B581646F4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3D031F54123E58320AC23277</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3DE6CA2B2825018984E09F7E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-InfColorPicker-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3EFE40B54B44C1991B720614</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FTFontDescriptor.h</string>
-			<key>path</key>
-			<string>Classes/Private/FTFontDescriptor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>48800294B33CA1EC91ADADF4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>InfColorSquarePicker.m</string>
-			<key>path</key>
-			<string>InfColorPicker/InfColorSquarePicker.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>48D4BE62A1DF22AD19387FF1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BFAEE59216FBDDF00CA417C9</string>
-				<string>E8267EC1A603E74937C45F2E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A47C6F033A7F5B2F4A34D9B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-FTFontSelector.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5085284345C9E3BBFF14F41E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>InfColorPickerController.m</string>
-			<key>path</key>
-			<string>InfColorPicker/InfColorPickerController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>512D15C6779C7D20DD75F280</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D031F54123E58320AC23277</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>51F2A2529ACEE17EDAFE2A07</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D031F54123E58320AC23277</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52AAD78D14C5BCE64269E57D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>88293E133FB9BB48F7AD98BC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>55AD99536149FF7C498D2D2A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-InfColorPicker-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57A284C7BF57496818EDC3F7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FE9767CEBCC0AA487D8CA302</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57B38FBEE5D23F3AF5CA61C5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>InfColorPicker.h</string>
-			<key>path</key>
-			<string>InfColorPicker/InfColorPicker.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B9A0683739AA140B3BF7906</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-FTFontSelector.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>5C5B86F7A6C724CDF5140F0A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>InfColorBarPicker.m</string>
-			<key>path</key>
-			<string>InfColorPicker/InfColorBarPicker.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C7006819C4D9FAA2757A05E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>InfHSBSupport.h</string>
-			<key>path</key>
-			<string>InfColorPicker/InfHSBSupport.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>60C066A3C0C629FC7C2A03EA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>AAF29E1780C867E6C709E33F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8EB70BA302FE7D8DBA012B4A</string>
-				<string>2FB7795F1146380B40EAD177</string>
-				<string>18CF06B7ABA1DFCC0BA00554</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-InfColorPicker</string>
-			<key>productName</key>
-			<string>Pods-InfColorPicker</string>
-			<key>productReference</key>
-			<string>366CB13F7563BC94CD6044C3</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>65B9D01946BF3C56D59D3D26</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>25D30C697F061D212F50331E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>FA20534C7518BD8840D47B18</string>
-				<string>E10B4D1A631DCED9C0CC6E3C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>AA70F25B513638A37A74AD85</string>
-				<string>6D95F5F43D0631E300E60EEC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>31DDF2CF60F8D0F321151C00</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>6619B7978DC60CC9023E89D2</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreText.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6D95F5F43D0631E300E60EEC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>60C066A3C0C629FC7C2A03EA</string>
-			<key>targetProxy</key>
-			<string>0420025180E77129043EA063</string>
-		</dict>
-		<key>70BBE91915262D20DBB4D784</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EB660D355504835E4C559247</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>72605278B09AE8E909262B08</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>31DDF2CF60F8D0F321151C00</string>
-				<string>5B9A0683739AA140B3BF7906</string>
-				<string>366CB13F7563BC94CD6044C3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7392561F5FB6CED0DCCEC737</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6619B7978DC60CC9023E89D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>74B271F4DBE68E0B581646F4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FTFontSelectorController.h</string>
-			<key>path</key>
-			<string>Classes/FTFontSelectorController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75898F2BCC9FA671D01C9038</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A1D72B87549F0F1F0F64FE45</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>79E8F31EF6CCF0CB74F239ED</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E6784D877838DFA36C7D5CD0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>01C0BD35795B04791BB3DBDB</string>
-				<string>D0EFA8F3854001F91DEF1A82</string>
-				<string>7C64CF3BBBA6C4586723F0DA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-FTFontSelector</string>
-			<key>productName</key>
-			<string>Pods-FTFontSelector</string>
-			<key>productReference</key>
-			<string>5B9A0683739AA140B3BF7906</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7C64CF3BBBA6C4586723F0DA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>00D187552B399238D0BC1D57</string>
-				<string>8D8DA7A2EB39AF0142E94243</string>
-				<string>0E8E43E4F09383DD19DDCA99</string>
-				<string>3B2AEF001435A625164F4017</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7ED93305E5ABEC06B47788C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1840B5ED4FAA02CE8356FBBA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>87DCBDD02773D2D4AD6AA952</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88293E133FB9BB48F7AD98BC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>884D3ECA08290051CEB97549</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3D031F54123E58320AC23277</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8ABDD385C349064A9CB67DB7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C4B9E199562E7C3D6CE85D5F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8B4F883C0608E53993D7C250</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EB1BF79ED2BCCA997167624C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8D8DA7A2EB39AF0142E94243</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CD5E6F0513C2F0956C9EF174</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8EB70BA302FE7D8DBA012B4A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C8342CE5E13DF0ADEDE6D453</string>
-				<string>D12C5B879C32ED5DDC2D6732</string>
-				<string>13CC2B14745F75B6F45874FE</string>
-				<string>92C60B847262953B821F0F49</string>
-				<string>FCA6C7D42C624F26255F0785</string>
-				<string>EF70E38156F2EFF8A7DFAAC6</string>
-				<string>E7902A4BF97C7FB6E20E90FA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>90EF29B3AA6E52BE17F4223F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>57B38FBEE5D23F3AF5CA61C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>92C60B847262953B821F0F49</key>
-		<dict>
-			<key>fileRef</key>
-			<string>48800294B33CA1EC91ADADF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>930CC3CD6EE2F15D3C567135</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>2D337B7A2C3F0C9104A9A282</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>79E8F31EF6CCF0CB74F239ED</string>
-			<key>remoteInfo</key>
-			<string>Pods-FTFontSelector</string>
-		</dict>
-		<key>93EB15D8D4E33B761521DCFE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>87DCBDD02773D2D4AD6AA952</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>97DCB454E58B8F28E401748C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F987F0E40E9FAAF29060537D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>993E98E635CFD2A550AB545E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1C6E8C67C6C30CC2A1859F35</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>99CCC7AA6E9041C43FFFFBDF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9E88D30FC07BF8DB25C49484</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A7719B3FDFD9696850C25E9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CE371B4A7BF16276BC017AAC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>9D09BA833F71F34732DEAB02</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FTFontSelectorController.m</string>
-			<key>path</key>
-			<string>Classes/FTFontSelectorController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E88D30FC07BF8DB25C49484</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0CC0C36FD8E4C5BA04F0015E</string>
-				<string>35BE5CD6A1EFEA2F4061F25E</string>
-				<string>FAC2D99B4B817032162CF65F</string>
-				<string>D6DE1194B57ADDE13F0CFB50</string>
-				<string>D3F9E466DAE231B4AE2837F6</string>
-				<string>88293E133FB9BB48F7AD98BC</string>
-				<string>87DCBDD02773D2D4AD6AA952</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A0115A38A685DDB85F51DD5E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9D09BA833F71F34732DEAB02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>A1A81D9D9FCB72401B9610DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>InfColorIndicatorView.m</string>
-			<key>path</key>
-			<string>InfColorPicker/InfColorIndicatorView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A1D72B87549F0F1F0F64FE45</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6619B7978DC60CC9023E89D2</string>
-				<string>3D031F54123E58320AC23277</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A30AE8E85613845CC17B63AC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-InfColorPicker-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA70F25B513638A37A74AD85</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>79E8F31EF6CCF0CB74F239ED</string>
-			<key>targetProxy</key>
-			<string>930CC3CD6EE2F15D3C567135</string>
-		</dict>
-		<key>AAF29E1780C867E6C709E33F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EDD4ED36FB88EB12F99D8825</string>
-				<string>B640FEFE851A9AA319FD95E3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>B32C7FC80CE3DCA567FF3C41</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CECDA0C39F368FB6D786743E</string>
-				<string>75898F2BCC9FA671D01C9038</string>
-				<string>48D4BE62A1DF22AD19387FF1</string>
-				<string>72605278B09AE8E909262B08</string>
-				<string>99CCC7AA6E9041C43FFFFBDF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B640FEFE851A9AA319FD95E3</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A30AE8E85613845CC17B63AC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-InfColorPicker/Pods-InfColorPicker-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BCC8178DD754607F45B307CD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>BFAEE59216FBDDF00CA417C9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3EFE40B54B44C1991B720614</string>
-				<string>EB660D355504835E4C559247</string>
-				<string>CD5E6F0513C2F0956C9EF174</string>
-				<string>CE371B4A7BF16276BC017AAC</string>
-				<string>D8FB315170814381C322A21B</string>
-				<string>1C6E8C67C6C30CC2A1859F35</string>
-				<string>74B271F4DBE68E0B581646F4</string>
-				<string>9D09BA833F71F34732DEAB02</string>
-				<string>8B4F883C0608E53993D7C250</string>
-				<string>F2E917BB4259CA64D8F275CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FTFontSelector</string>
-			<key>path</key>
-			<string>FTFontSelector</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4B9E199562E7C3D6CE85D5F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>InfSourceColorView.h</string>
-			<key>path</key>
-			<string>InfColorPicker/InfSourceColorView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C8342CE5E13DF0ADEDE6D453</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C5B86F7A6C724CDF5140F0A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>CD5E6F0513C2F0956C9EF174</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FTFontFamiliesViewController.h</string>
-			<key>path</key>
-			<string>Classes/Private/FTFontFamiliesViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE371B4A7BF16276BC017AAC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FTFontFamiliesViewController.m</string>
-			<key>path</key>
-			<string>Classes/Private/FTFontFamiliesViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CECDA0C39F368FB6D786743E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>D0134C13539676908D188ACF</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>D0EFA8F3854001F91DEF1A82</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7392561F5FB6CED0DCCEC737</string>
-				<string>884D3ECA08290051CEB97549</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D12C5B879C32ED5DDC2D6732</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A1A81D9D9FCB72401B9610DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>D3F9E466DAE231B4AE2837F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D6DE1194B57ADDE13F0CFB50</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D81A18FF513610C5299DC8E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C7006819C4D9FAA2757A05E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D8FB315170814381C322A21B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FTFontFamilyMembersViewController.h</string>
-			<key>path</key>
-			<string>Classes/Private/FTFontFamilyMembersViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E10B4D1A631DCED9C0CC6E3C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>51F2A2529ACEE17EDAFE2A07</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E40E5DA9C273045FC827CC8C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-FTFontSelector-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6784D877838DFA36C7D5CD0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E884507D7644E3276B6F2850</string>
-				<string>14197177BCD1FFAF8A93857B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E7902A4BF97C7FB6E20E90FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3DE6CA2B2825018984E09F7E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E8267EC1A603E74937C45F2E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F8162CC1919A1FF2B2A68E72</string>
-				<string>5C5B86F7A6C724CDF5140F0A</string>
-				<string>39F2A5983344A594237ABB39</string>
-				<string>A1A81D9D9FCB72401B9610DD</string>
-				<string>57B38FBEE5D23F3AF5CA61C5</string>
-				<string>377D58C6D75630182710F303</string>
-				<string>5085284345C9E3BBFF14F41E</string>
-				<string>1840B5ED4FAA02CE8356FBBA</string>
-				<string>48800294B33CA1EC91ADADF4</string>
-				<string>5C7006819C4D9FAA2757A05E</string>
-				<string>1573A225197B27D5D32D18BA</string>
-				<string>C4B9E199562E7C3D6CE85D5F</string>
-				<string>30E23C5DDB136C127A9BD85E</string>
-				<string>57A284C7BF57496818EDC3F7</string>
-				<string>EFF6A980AC1CFB571F97F647</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>InfColorPicker</string>
-			<key>path</key>
-			<string>InfColorPicker</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E884507D7644E3276B6F2850</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E40E5DA9C273045FC827CC8C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-FTFontSelector/Pods-FTFontSelector-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E94C0D05BD7446895BBCAA45</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-FTFontSelector-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB0FFEC1B1440580579FE630</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F8162CC1919A1FF2B2A68E72</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EB1BF79ED2BCCA997167624C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>name</key>
-			<string>FTFontSelector.bundle</string>
-			<key>path</key>
-			<string>Assets/FTFontSelector.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB660D355504835E4C559247</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FTFontDescriptor.m</string>
-			<key>path</key>
-			<string>Classes/Private/FTFontDescriptor.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDD4ED36FB88EB12F99D8825</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>A30AE8E85613845CC17B63AC</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-InfColorPicker/Pods-InfColorPicker-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EF70E38156F2EFF8A7DFAAC6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30E23C5DDB136C127A9BD85E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>EFF6A980AC1CFB571F97F647</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FAE83C2DF7E0974651A1E6DC</string>
-				<string>A30AE8E85613845CC17B63AC</string>
-				<string>3DE6CA2B2825018984E09F7E</string>
-				<string>55AD99536149FF7C498D2D2A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-InfColorPicker</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2E917BB4259CA64D8F275CC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4A47C6F033A7F5B2F4A34D9B</string>
-				<string>E40E5DA9C273045FC827CC8C</string>
-				<string>F987F0E40E9FAAF29060537D</string>
-				<string>E94C0D05BD7446895BBCAA45</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-FTFontSelector</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F328A5216787EE20DE189435</key>
-		<dict>
-			<key>fileRef</key>
-			<string>377D58C6D75630182710F303</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F8162CC1919A1FF2B2A68E72</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>InfColorBarPicker.h</string>
-			<key>path</key>
-			<string>InfColorPicker/InfColorBarPicker.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F987F0E40E9FAAF29060537D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-FTFontSelector-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA20534C7518BD8840D47B18</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1A5B314E9C3F5B008186AD02</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FAC2D99B4B817032162CF65F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FAE83C2DF7E0974651A1E6DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-InfColorPicker.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FCA6C7D42C624F26255F0785</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1573A225197B27D5D32D18BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-w -Xanalyzer -analyzer-disable-checker -Xanalyzer deadcode</string>
-			</dict>
-		</dict>
-		<key>FE9767CEBCC0AA487D8CA302</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>InfColorPickerView.xib</string>
-			<key>path</key>
-			<string>InfColorPicker/InfColorPickerView.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>2D337B7A2C3F0C9104A9A282</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0403510A9CEE58CB7A6B4075EFA31476 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D135ADCA6B43E9C62646152B77BFBE70 /* CoreText.framework */; };
+		0467A590F01F35394E54C72E84FAE2E3 /* InfColorPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0B774C9A9F3292366EE6028CAD8C6F /* InfColorPickerController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		199957811B51A9320E6BE8FFB2980CBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E8AFEE21E803FC7AC90E8CDFF43640 /* Foundation.framework */; };
+		22235C75C345D0FE24408A580005C824 /* InfColorSquarePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCE7F11DBD4346AB762926E9351FFC /* InfColorSquarePicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2D1A89B8648F1288094510DFE58B25C2 /* InfColorIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC2F309E91E51020A946DFF59FDB28F /* InfColorIndicatorView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4E45CF50573B611D4B7856476071FA7D /* InfColorBarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8A39F616F4C05F66DF0F391D2DD122 /* InfColorBarPicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4EA79FF4752BB83268B5B4C8FC7A896D /* FTFontFamilyMembersViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B25F665B13627B60D887564A1CB518C7 /* FTFontFamilyMembersViewController.h */; };
+		4F96A8CA734809B024D899B111B8E800 /* FTFontFamilyMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC20B2725F49ED76B63CF62D2FB9117 /* FTFontFamilyMembersViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		50AD7843801295E545D1FD8B04A02B2E /* InfHSBSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DD49ECE148450648855091DEC3BA6A25 /* InfHSBSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		517ED1ECD012BF3B01E1659F1F9E20E6 /* FTFontDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 678FA0C6F97D1969C08AF10DF2B3ED5D /* FTFontDescriptor.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		524329307F13EB992B5C56E2CAD2F370 /* FTFontSelector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47578294696107906A5B245745AEDE20 /* FTFontSelector-dummy.m */; };
+		5418C26D2B71ADF7812C4492D088F88A /* InfColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A7C3B7D382011E4E093215C335EBCF5 /* InfColorPicker.h */; };
+		548CE307ED517E8E1538CAD34FB83E22 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7F72CA73E21D099EB4C7D8132C3D55 /* Pods-dummy.m */; };
+		672F8A044C0165231AB1E3A3F685EE9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E8AFEE21E803FC7AC90E8CDFF43640 /* Foundation.framework */; };
+		6A9399BEC51371C4F8AA6DA3817A2EDC /* FTFontSelectorController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7E496DE5148D9D59D995F9AB96B2A8 /* FTFontSelectorController.h */; };
+		6B08C5F40A62033CC95AA21BD9408B10 /* FTFontFamiliesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 43CD4FC9962EAF99A05B9F2AEBBBBE82 /* FTFontFamiliesViewController.h */; };
+		7501F40FB690C747A06289CDF0710AF1 /* FTFontFamiliesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61102C28849379B63ECB273FB7B5202A /* FTFontFamiliesViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		772B7C37D89393BE011B3FB40259F456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E8AFEE21E803FC7AC90E8CDFF43640 /* Foundation.framework */; };
+		7E7F6D3FF89C18C95012CFE3AE3723AD /* InfColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 999EF696ECB9789BE9FE9141E8FD8EFB /* InfColorPicker-dummy.m */; };
+		89CFC4AAA9C3BE0D63DA9527DE3C5ED8 /* InfColorIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E096DDB760D4C3089DD9F7149C28CBF /* InfColorIndicatorView.h */; };
+		9B9FDB57A90BF607FD851498EE530BA4 /* FTFontSelectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C1C9DDA0C64878BCB463E168FB4008 /* FTFontSelectorController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AC25F7B0EC120C6633B0348AD3890795 /* InfSourceColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0AC9DB8D87EDA1FDB318AD3B001C76 /* InfSourceColorView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D032ED74F0778F49B0123CFED8E1B9B4 /* InfColorPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD57636E84F2C4D9A01D1D4C0BE6CD86 /* InfColorPickerController.h */; };
+		D26B47C76386C329E66AB136F1D4DC21 /* InfHSBSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B6144904BBA327477F6EEDB8D073B2 /* InfHSBSupport.h */; };
+		E89A5E59B4A5DD8C4B1B4E48FF7DEBD1 /* InfSourceColorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B4169372B710EBB68A45FBBFD5645A /* InfSourceColorView.h */; };
+		FBB00CBD5BE1444D90EDB899C5739B0E /* FTFontDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 60983B693EADBC34F21214ED0255A10D /* FTFontDescriptor.h */; };
+		FF60708E8319732E4D85C540E968837E /* InfColorBarPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = A2990788BFE9381FFA96079D0F4924D1 /* InfColorBarPicker.h */; };
+		FF61331CE27EDE86ED4B042B9E33C0B4 /* InfColorSquarePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D1759DB6DC6821B1953D1AE064C8FD01 /* InfColorSquarePicker.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEC5E378B0CCEE904AA9CDEC0D4BD06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53C02AC2BA22664F2D47BC44265741EB;
+			remoteInfo = InfColorPicker;
+		};
+		FEA5535D99485AA71B82B514CF0FCB3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2CA3945D0BC59E2680A21E8D3B08C74;
+			remoteInfo = FTFontSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE74CA9360F37E2907A8A74AFEECE19 /* InfColorPickerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = InfColorPickerView.xib; path = InfColorPicker/InfColorPickerView.xib; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E096DDB760D4C3089DD9F7149C28CBF /* InfColorIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfColorIndicatorView.h; path = InfColorPicker/InfColorIndicatorView.h; sourceTree = "<group>"; };
+		2B0B774C9A9F3292366EE6028CAD8C6F /* InfColorPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InfColorPickerController.m; path = InfColorPicker/InfColorPickerController.m; sourceTree = "<group>"; };
+		2D0AC9DB8D87EDA1FDB318AD3B001C76 /* InfSourceColorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InfSourceColorView.m; path = InfColorPicker/InfSourceColorView.m; sourceTree = "<group>"; };
+		302A0E6E5E97C3169A0AFA1049C4D1A5 /* InfColorPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "InfColorPicker-Private.xcconfig"; sourceTree = "<group>"; };
+		31D780473B4BEC8C8FE0256FD8486733 /* libFTFontSelector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFTFontSelector.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		43CD4FC9962EAF99A05B9F2AEBBBBE82 /* FTFontFamiliesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTFontFamiliesViewController.h; path = Classes/Private/FTFontFamiliesViewController.h; sourceTree = "<group>"; };
+		47578294696107906A5B245745AEDE20 /* FTFontSelector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTFontSelector-dummy.m"; sourceTree = "<group>"; };
+		4A7C3B7D382011E4E093215C335EBCF5 /* InfColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfColorPicker.h; path = InfColorPicker/InfColorPicker.h; sourceTree = "<group>"; };
+		51B4169372B710EBB68A45FBBFD5645A /* InfSourceColorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfSourceColorView.h; path = InfColorPicker/InfSourceColorView.h; sourceTree = "<group>"; };
+		56B6144904BBA327477F6EEDB8D073B2 /* InfHSBSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfHSBSupport.h; path = InfColorPicker/InfHSBSupport.h; sourceTree = "<group>"; };
+		5E2066950BC6CF56AFF5F81958A75D74 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		60983B693EADBC34F21214ED0255A10D /* FTFontDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTFontDescriptor.h; path = Classes/Private/FTFontDescriptor.h; sourceTree = "<group>"; };
+		61102C28849379B63ECB273FB7B5202A /* FTFontFamiliesViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTFontFamiliesViewController.m; path = Classes/Private/FTFontFamiliesViewController.m; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		678FA0C6F97D1969C08AF10DF2B3ED5D /* FTFontDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTFontDescriptor.m; path = Classes/Private/FTFontDescriptor.m; sourceTree = "<group>"; };
+		6DFAF9FD8C5DD7A24263B36D3CE25D88 /* FTFontSelector.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FTFontSelector.bundle; path = Assets/FTFontSelector.bundle; sourceTree = "<group>"; };
+		6F7E496DE5148D9D59D995F9AB96B2A8 /* FTFontSelectorController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTFontSelectorController.h; path = Classes/FTFontSelectorController.h; sourceTree = "<group>"; };
+		7AC2F309E91E51020A946DFF59FDB28F /* InfColorIndicatorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InfColorIndicatorView.m; path = InfColorPicker/InfColorIndicatorView.m; sourceTree = "<group>"; };
+		8D4081B11A19B67EA77ECE50C94E7620 /* InfColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InfColorPicker.xcconfig; sourceTree = "<group>"; };
+		999EF696ECB9789BE9FE9141E8FD8EFB /* InfColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InfColorPicker-dummy.m"; sourceTree = "<group>"; };
+		A2990788BFE9381FFA96079D0F4924D1 /* InfColorBarPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfColorBarPicker.h; path = InfColorPicker/InfColorBarPicker.h; sourceTree = "<group>"; };
+		A343D2E8CAD6492677CF6F930E0932A4 /* FTFontSelector-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FTFontSelector-Private.xcconfig"; sourceTree = "<group>"; };
+		A5C1C9DDA0C64878BCB463E168FB4008 /* FTFontSelectorController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTFontSelectorController.m; path = Classes/FTFontSelectorController.m; sourceTree = "<group>"; };
+		AC8A39F616F4C05F66DF0F391D2DD122 /* InfColorBarPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InfColorBarPicker.m; path = InfColorPicker/InfColorBarPicker.m; sourceTree = "<group>"; };
+		AD57636E84F2C4D9A01D1D4C0BE6CD86 /* InfColorPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfColorPickerController.h; path = InfColorPicker/InfColorPickerController.h; sourceTree = "<group>"; };
+		B19D4130CA44775583FCC322FE99C0AE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B25F665B13627B60D887564A1CB518C7 /* FTFontFamilyMembersViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTFontFamilyMembersViewController.h; path = Classes/Private/FTFontFamilyMembersViewController.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BED473E29A88CD6002CB39CD0A51E385 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAFCE7F11DBD4346AB762926E9351FFC /* InfColorSquarePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InfColorSquarePicker.m; path = InfColorPicker/InfColorSquarePicker.m; sourceTree = "<group>"; };
+		D135ADCA6B43E9C62646152B77BFBE70 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		D1759DB6DC6821B1953D1AE064C8FD01 /* InfColorSquarePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InfColorSquarePicker.h; path = InfColorPicker/InfColorSquarePicker.h; sourceTree = "<group>"; };
+		D7DF7F878B2858B983672EE1712E7E0E /* libInfColorPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInfColorPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E8AFEE21E803FC7AC90E8CDFF43640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DD49ECE148450648855091DEC3BA6A25 /* InfHSBSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InfHSBSupport.m; path = InfColorPicker/InfHSBSupport.m; sourceTree = "<group>"; };
+		EC7F72CA73E21D099EB4C7D8132C3D55 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		F139AE8876757993582D627FC5DEE4BC /* FTFontSelector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTFontSelector.xcconfig; sourceTree = "<group>"; };
+		FB6C604751C8E9B5C61B3E8B62F3EA80 /* InfColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InfColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		FC40F1903557F4FA47333A67C715D5F9 /* FTFontSelector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTFontSelector-prefix.pch"; sourceTree = "<group>"; };
+		FCC20B2725F49ED76B63CF62D2FB9117 /* FTFontFamilyMembersViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTFontFamilyMembersViewController.m; path = Classes/Private/FTFontFamilyMembersViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66528B24A72A968323626B0D27FBBBCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672F8A044C0165231AB1E3A3F685EE9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871D23D4C6C316EEC5FF0F8336CA7685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0403510A9CEE58CB7A6B4075EFA31476 /* CoreText.framework in Frameworks */,
+				199957811B51A9320E6BE8FFB2980CBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3BE0A13633669A29D92185712F2CB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				772B7C37D89393BE011B3FB40259F456 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3769465164CC9034CE4F1B0B40B0EF6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DFAF9FD8C5DD7A24263B36D3CE25D88 /* FTFontSelector.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50259886C94ADC1E7D22C3FC83407CA7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50259886C94ADC1E7D22C3FC83407CA7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D135ADCA6B43E9C62646152B77BFBE70 /* CoreText.framework */,
+				D7E8AFEE21E803FC7AC90E8CDFF43640 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64F7C86CED897F6F9B28C710DFBE01A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B40C764FDC1C7B1A0482D9F91EDE9F3E /* FTFontSelector */,
+				AEA4CBCC59949A0BE2767A1CA262FED1 /* InfColorPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				64F7C86CED897F6F9B28C710DFBE01A0 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				EC7F72CA73E21D099EB4C7D8132C3D55 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				BED473E29A88CD6002CB39CD0A51E385 /* Pods.debug.xcconfig */,
+				5E2066950BC6CF56AFF5F81958A75D74 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		AEA4CBCC59949A0BE2767A1CA262FED1 /* InfColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A2990788BFE9381FFA96079D0F4924D1 /* InfColorBarPicker.h */,
+				AC8A39F616F4C05F66DF0F391D2DD122 /* InfColorBarPicker.m */,
+				1E096DDB760D4C3089DD9F7149C28CBF /* InfColorIndicatorView.h */,
+				7AC2F309E91E51020A946DFF59FDB28F /* InfColorIndicatorView.m */,
+				4A7C3B7D382011E4E093215C335EBCF5 /* InfColorPicker.h */,
+				AD57636E84F2C4D9A01D1D4C0BE6CD86 /* InfColorPickerController.h */,
+				2B0B774C9A9F3292366EE6028CAD8C6F /* InfColorPickerController.m */,
+				D1759DB6DC6821B1953D1AE064C8FD01 /* InfColorSquarePicker.h */,
+				CAFCE7F11DBD4346AB762926E9351FFC /* InfColorSquarePicker.m */,
+				56B6144904BBA327477F6EEDB8D073B2 /* InfHSBSupport.h */,
+				DD49ECE148450648855091DEC3BA6A25 /* InfHSBSupport.m */,
+				51B4169372B710EBB68A45FBBFD5645A /* InfSourceColorView.h */,
+				2D0AC9DB8D87EDA1FDB318AD3B001C76 /* InfSourceColorView.m */,
+				FBE98A5136F51DE274C3563AB1A18172 /* Resources */,
+				BA91B339A58B6A47C04A824462BC1FDC /* Support Files */,
+			);
+			path = InfColorPicker;
+			sourceTree = "<group>";
+		};
+		B40C764FDC1C7B1A0482D9F91EDE9F3E /* FTFontSelector */ = {
+			isa = PBXGroup;
+			children = (
+				60983B693EADBC34F21214ED0255A10D /* FTFontDescriptor.h */,
+				678FA0C6F97D1969C08AF10DF2B3ED5D /* FTFontDescriptor.m */,
+				43CD4FC9962EAF99A05B9F2AEBBBBE82 /* FTFontFamiliesViewController.h */,
+				61102C28849379B63ECB273FB7B5202A /* FTFontFamiliesViewController.m */,
+				B25F665B13627B60D887564A1CB518C7 /* FTFontFamilyMembersViewController.h */,
+				FCC20B2725F49ED76B63CF62D2FB9117 /* FTFontFamilyMembersViewController.m */,
+				6F7E496DE5148D9D59D995F9AB96B2A8 /* FTFontSelectorController.h */,
+				A5C1C9DDA0C64878BCB463E168FB4008 /* FTFontSelectorController.m */,
+				3769465164CC9034CE4F1B0B40B0EF6E /* Resources */,
+				F611B2BBD98858AC09A2660E6BB1A743 /* Support Files */,
+			);
+			path = FTFontSelector;
+			sourceTree = "<group>";
+		};
+		BA91B339A58B6A47C04A824462BC1FDC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D4081B11A19B67EA77ECE50C94E7620 /* InfColorPicker.xcconfig */,
+				302A0E6E5E97C3169A0AFA1049C4D1A5 /* InfColorPicker-Private.xcconfig */,
+				999EF696ECB9789BE9FE9141E8FD8EFB /* InfColorPicker-dummy.m */,
+				FB6C604751C8E9B5C61B3E8B62F3EA80 /* InfColorPicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/InfColorPicker";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31D780473B4BEC8C8FE0256FD8486733 /* libFTFontSelector.a */,
+				D7DF7F878B2858B983672EE1712E7E0E /* libInfColorPicker.a */,
+				B19D4130CA44775583FCC322FE99C0AE /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F611B2BBD98858AC09A2660E6BB1A743 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F139AE8876757993582D627FC5DEE4BC /* FTFontSelector.xcconfig */,
+				A343D2E8CAD6492677CF6F930E0932A4 /* FTFontSelector-Private.xcconfig */,
+				47578294696107906A5B245745AEDE20 /* FTFontSelector-dummy.m */,
+				FC40F1903557F4FA47333A67C715D5F9 /* FTFontSelector-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FTFontSelector";
+			sourceTree = "<group>";
+		};
+		FBE98A5136F51DE274C3563AB1A18172 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EE74CA9360F37E2907A8A74AFEECE19 /* InfColorPickerView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28CB745C63738FA5E040E31410826513 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB00CBD5BE1444D90EDB899C5739B0E /* FTFontDescriptor.h in Headers */,
+				6B08C5F40A62033CC95AA21BD9408B10 /* FTFontFamiliesViewController.h in Headers */,
+				4EA79FF4752BB83268B5B4C8FC7A896D /* FTFontFamilyMembersViewController.h in Headers */,
+				6A9399BEC51371C4F8AA6DA3817A2EDC /* FTFontSelectorController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C12EDCF69148FF37E07E2B12BD802D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF60708E8319732E4D85C540E968837E /* InfColorBarPicker.h in Headers */,
+				89CFC4AAA9C3BE0D63DA9527DE3C5ED8 /* InfColorIndicatorView.h in Headers */,
+				5418C26D2B71ADF7812C4492D088F88A /* InfColorPicker.h in Headers */,
+				D032ED74F0778F49B0123CFED8E1B9B4 /* InfColorPickerController.h in Headers */,
+				FF61331CE27EDE86ED4B042B9E33C0B4 /* InfColorSquarePicker.h in Headers */,
+				D26B47C76386C329E66AB136F1D4DC21 /* InfHSBSupport.h in Headers */,
+				E89A5E59B4A5DD8C4B1B4E48FF7DEBD1 /* InfSourceColorView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53C02AC2BA22664F2D47BC44265741EB /* InfColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B72F0D22D3FEA9CE2ADA9CE33F7CF861 /* Build configuration list for PBXNativeTarget "InfColorPicker" */;
+			buildPhases = (
+				A7E4628EE32F64254DEEEBB3E5ACF2F1 /* Sources */,
+				66528B24A72A968323626B0D27FBBBCE /* Frameworks */,
+				3C12EDCF69148FF37E07E2B12BD802D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfColorPicker;
+			productName = InfColorPicker;
+			productReference = D7DF7F878B2858B983672EE1712E7E0E /* libInfColorPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6E1992EA277984BA69733A19197AF21 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7525EFCE19E32EAA02A1E40279D2F60F /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				1A0EBC2409D16D8AA601DBFF4C428F1E /* Sources */,
+				E3BE0A13633669A29D92185712F2CB36 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB7618443DC7FA616331F61C00A84BD6 /* PBXTargetDependency */,
+				F3727A227AAA896FF79E21F4DA8208FE /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = B19D4130CA44775583FCC322FE99C0AE /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E2CA3945D0BC59E2680A21E8D3B08C74 /* FTFontSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D3A4D0E599688D5E90FA5FC731A12BA /* Build configuration list for PBXNativeTarget "FTFontSelector" */;
+			buildPhases = (
+				F2393B768A336BF7E4D1162FC2A2AACB /* Sources */,
+				871D23D4C6C316EEC5FF0F8336CA7685 /* Frameworks */,
+				28CB745C63738FA5E040E31410826513 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTFontSelector;
+			productName = FTFontSelector;
+			productReference = 31D780473B4BEC8C8FE0256FD8486733 /* libFTFontSelector.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2CA3945D0BC59E2680A21E8D3B08C74 /* FTFontSelector */,
+				53C02AC2BA22664F2D47BC44265741EB /* InfColorPicker */,
+				B6E1992EA277984BA69733A19197AF21 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0EBC2409D16D8AA601DBFF4C428F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				548CE307ED517E8E1538CAD34FB83E22 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7E4628EE32F64254DEEEBB3E5ACF2F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E45CF50573B611D4B7856476071FA7D /* InfColorBarPicker.m in Sources */,
+				2D1A89B8648F1288094510DFE58B25C2 /* InfColorIndicatorView.m in Sources */,
+				7E7F6D3FF89C18C95012CFE3AE3723AD /* InfColorPicker-dummy.m in Sources */,
+				0467A590F01F35394E54C72E84FAE2E3 /* InfColorPickerController.m in Sources */,
+				22235C75C345D0FE24408A580005C824 /* InfColorSquarePicker.m in Sources */,
+				50AD7843801295E545D1FD8B04A02B2E /* InfHSBSupport.m in Sources */,
+				AC25F7B0EC120C6633B0348AD3890795 /* InfSourceColorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2393B768A336BF7E4D1162FC2A2AACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517ED1ECD012BF3B01E1659F1F9E20E6 /* FTFontDescriptor.m in Sources */,
+				7501F40FB690C747A06289CDF0710AF1 /* FTFontFamiliesViewController.m in Sources */,
+				4F96A8CA734809B024D899B111B8E800 /* FTFontFamilyMembersViewController.m in Sources */,
+				524329307F13EB992B5C56E2CAD2F370 /* FTFontSelector-dummy.m in Sources */,
+				9B9FDB57A90BF607FD851498EE530BA4 /* FTFontSelectorController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3727A227AAA896FF79E21F4DA8208FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InfColorPicker;
+			target = 53C02AC2BA22664F2D47BC44265741EB /* InfColorPicker */;
+			targetProxy = 3FEC5E378B0CCEE904AA9CDEC0D4BD06 /* PBXContainerItemProxy */;
+		};
+		FB7618443DC7FA616331F61C00A84BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTFontSelector;
+			target = E2CA3945D0BC59E2680A21E8D3B08C74 /* FTFontSelector */;
+			targetProxy = FEA5535D99485AA71B82B514CF0FCB3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E0D2DDAF247837D90D60302A08CD455 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302A0E6E5E97C3169A0AFA1049C4D1A5 /* InfColorPicker-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InfColorPicker/InfColorPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		15C00C2C521CAC4DC398CAC99F59B5F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED473E29A88CD6002CB39CD0A51E385 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		59689EB7E7E741D402F0C7248A4D11D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 302A0E6E5E97C3169A0AFA1049C4D1A5 /* InfColorPicker-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/InfColorPicker/InfColorPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6569F07DC21AD8B72752685013E3D9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		879AB7842FACB867550ABB627FCB9705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A343D2E8CAD6492677CF6F930E0932A4 /* FTFontSelector-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FTFontSelector/FTFontSelector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		88B22F36237A7252E9E384F0E65B4CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A343D2E8CAD6492677CF6F930E0932A4 /* FTFontSelector-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FTFontSelector/FTFontSelector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A14E2444F162A20E3776820E0ADFFB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A49D10716BFFEF85C50BF7727C860B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E2066950BC6CF56AFF5F81958A75D74 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D3A4D0E599688D5E90FA5FC731A12BA /* Build configuration list for PBXNativeTarget "FTFontSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879AB7842FACB867550ABB627FCB9705 /* Debug */,
+				88B22F36237A7252E9E384F0E65B4CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6569F07DC21AD8B72752685013E3D9D8 /* Debug */,
+				A14E2444F162A20E3776820E0ADFFB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7525EFCE19E32EAA02A1E40279D2F60F /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C00C2C521CAC4DC398CAC99F59B5F5 /* Debug */,
+				A49D10716BFFEF85C50BF7727C860B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B72F0D22D3FEA9CE2ADA9CE33F7CF861 /* Build configuration list for PBXNativeTarget "InfColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59689EB7E7E741D402F0C7248A4D11D2 /* Debug */,
+				0E0D2DDAF247837D90D60302A08CD455 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
