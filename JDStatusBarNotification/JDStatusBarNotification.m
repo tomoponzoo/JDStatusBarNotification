@@ -12,15 +12,15 @@
 #import "JDStatusBarNotification.h"
 
 @interface JDStatusBarStyle (Hidden)
-+ (NSArray*)allDefaultStyleIdentifier;
-+ (JDStatusBarStyle*)defaultStyleWithName:(NSString*)styleName;
++ (NSArray *)allDefaultStyleIdentifier;
++ (JDStatusBarStyle *)defaultStyleWithName:(NSString *)styleName;
 @end
 
 @interface JDStatusBarNotificationViewController : UIViewController
 @end
 
 @interface UIApplication (mainWindow)
-- (UIWindow*)mainApplicationWindowIgnoringWindow:(UIWindow*)ignoringWindow;
+- (UIWindow *)mainApplicationWindowIgnoringWindow:(UIWindow *)ignoringWindow;
 @end
 
 @interface JDStatusBarNotification ()
@@ -44,7 +44,7 @@
 
 #pragma mark Class methods
 
-+ (JDStatusBarNotification*)sharedInstance {
++ (JDStatusBarNotification *)sharedInstance {
     static dispatch_once_t once;
     static JDStatusBarNotification *sharedInstance;
     dispatch_once(&once, ^ {
@@ -53,20 +53,20 @@
     return sharedInstance;
 }
 
-+ (UIView*)showWithStatus:(NSString *)status;
++ (UIView *)showWithStatus:(NSString *)status;
 {
     return [[self sharedInstance] showWithStatus:status
                                        styleName:nil];
 }
 
-+ (UIView*)showWithStatus:(NSString *)status
-                styleName:(NSString*)styleName;
++ (UIView *)showWithStatus:(NSString *)status
+                styleName:(NSString *)styleName;
 {
     return [[self sharedInstance] showWithStatus:status
                                        styleName:styleName];
 }
 
-+ (UIView*)showWithStatus:(NSString *)status
++ (UIView *)showWithStatus:(NSString *)status
              dismissAfter:(NSTimeInterval)timeInterval;
 {
     UIView *view = [[self sharedInstance] showWithStatus:status
@@ -75,9 +75,9 @@
     return view;
 }
 
-+ (UIView*)showWithStatus:(NSString *)status
++ (UIView *)showWithStatus:(NSString *)status
              dismissAfter:(NSTimeInterval)timeInterval
-                styleName:(NSString*)styleName;
+                styleName:(NSString *)styleName;
 {
     UIView *view = [[self sharedInstance] showWithStatus:status
                                                styleName:styleName];
@@ -108,7 +108,7 @@
     [JDStatusBarNotification sharedInstance].defaultStyle = prepareBlock(style);
 }
 
-+ (NSString*)addStyleNamed:(NSString*)identifier
++ (NSString*)addStyleNamed:(NSString *)identifier
                    prepare:(JDPrepareStyleBlock)prepareBlock;
 {
     return [[JDStatusBarNotification sharedInstance] addStyleNamed:identifier
@@ -163,7 +163,7 @@
     }
 }
 
-- (NSString*)addStyleNamed:(NSString*)identifier
+- (NSString *)addStyleNamed:(NSString *)identifier
                    prepare:(JDPrepareStyleBlock)prepareBlock;
 {
     NSAssert(identifier != nil, @"No identifier provided");
@@ -176,8 +176,8 @@
 
 #pragma mark Presentation
 
-- (UIView*)showWithStatus:(NSString *)status
-                styleName:(NSString*)styleName;
+- (UIView *)showWithStatus:(NSString *)status
+                styleName:(NSString *)styleName;
 {
     JDStatusBarStyle *style = nil;
     if (styleName != nil) {
@@ -188,8 +188,8 @@
     return [self showWithStatus:status style:style];
 }
 
-- (UIView*)showWithStatus:(NSString *)status
-                    style:(JDStatusBarStyle*)style;
+- (UIView *)showWithStatus:(NSString *)status
+                    style:(JDStatusBarStyle *)style;
 {
     // first, check if status bar is visible at all
     if ([UIApplication sharedApplication].statusBarHidden) return nil;
@@ -258,7 +258,7 @@
     [[NSRunLoop currentRunLoop] addTimer:self.dismissTimer forMode:NSRunLoopCommonModes];
 }
 
-- (void)dismiss:(NSTimer*)timer;
+- (void)dismiss:(NSTimer *)timer;
 {
     [self dismissAnimated:YES];
 }
@@ -432,7 +432,7 @@
     return _overlayWindow;
 }
 
-- (JDStatusBarView*)topBar;
+- (JDStatusBarView *)topBar;
 {
     if(_topBar == nil) {
         _topBar = [[JDStatusBarView alloc] init];
@@ -508,7 +508,7 @@
 
 // rotation
 
-- (UIViewController*)mainController
+- (UIViewController *)mainController
 {
     UIWindow *mainAppWindow = [[UIApplication sharedApplication] mainApplicationWindowIgnoringWindow:self.view.window];
     UIViewController *topController = mainAppWindow.rootViewController;
@@ -572,7 +572,7 @@ static BOOL JDUIViewControllerBasedStatusBarAppearanceEnabled() {
 
 @implementation UIApplication (mainWindow)
 // we don't want the keyWindow, since it could be our own window
-- (UIWindow*)mainApplicationWindowIgnoringWindow:(UIWindow *)ignoringWindow {
+- (UIWindow *)mainApplicationWindowIgnoringWindow:(UIWindow *)ignoringWindow {
     for (UIWindow *window in [[UIApplication sharedApplication] windows]) {
         if (!window.hidden && window != ignoringWindow) {
             return window;

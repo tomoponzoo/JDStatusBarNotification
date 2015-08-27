@@ -20,7 +20,7 @@
  *
  *  @return The modified JDStatusBarStyle instance.
  */
-typedef JDStatusBarStyle*(^JDPrepareStyleBlock)(JDStatusBarStyle *style);
+typedef JDStatusBarStyle * (^JDPrepareStyleBlock)(JDStatusBarStyle *style);
 
 /**
  *  This class is a singletion which is used to present notifications
@@ -39,7 +39,7 @@ typedef JDStatusBarStyle*(^JDPrepareStyleBlock)(JDStatusBarStyle *style);
  *
  *  @return The presented notification view for further customization
  */
-+ (JDStatusBarView*)showWithStatus:(NSString *)status;
++ (JDStatusBarView *)showWithStatus:(NSString *)status;
 
 /**
  *  Show a notification with a specific style. It won't
@@ -52,8 +52,8 @@ typedef JDStatusBarStyle*(^JDPrepareStyleBlock)(JDStatusBarStyle *style);
  *
  *  @return The presented notification view for further customization
  */
-+ (JDStatusBarView*)showWithStatus:(NSString *)status
-                         styleName:(NSString*)styleName;
++ (JDStatusBarView *)showWithStatus:(NSString *)status
+                          styleName:(NSString *)styleName;
 
 /**
  *  Same as showWithStatus:, but the notification will
@@ -65,8 +65,8 @@ typedef JDStatusBarStyle*(^JDPrepareStyleBlock)(JDStatusBarStyle *style);
  *
  *  @return The presented notification view for further customization
  */
-+ (JDStatusBarView*)showWithStatus:(NSString *)status
-                      dismissAfter:(NSTimeInterval)timeInterval;
++ (JDStatusBarView *)showWithStatus:(NSString *)status
+                       dismissAfter:(NSTimeInterval)timeInterval;
 
 /**
  *  Same as showWithStatus:styleName:, but the notification
@@ -81,9 +81,9 @@ typedef JDStatusBarStyle*(^JDPrepareStyleBlock)(JDStatusBarStyle *style);
  *
  *  @return The presented notification view for further customization
  */
-+ (JDStatusBarView*)showWithStatus:(NSString *)status
-                      dismissAfter:(NSTimeInterval)timeInterval
-                         styleName:(NSString*)styleName;
++ (JDStatusBarView *)showWithStatus:(NSString *)status
+                       dismissAfter:(NSTimeInterval)timeInterval
+                          styleName:(NSString *)styleName;
 
 #pragma mark Dismissal
 
@@ -134,7 +134,7 @@ typedef JDStatusBarStyle*(^JDPrepareStyleBlock)(JDStatusBarStyle *style);
  *  @return Returns the given identifier, so it can
  *  be directly used as styleName parameter.
  */
-+ (NSString*)addStyleNamed:(NSString*)identifier
++ (NSString*)addStyleNamed:(NSString *)identifier
                    prepare:(JDPrepareStyleBlock)prepareBlock;
 
 #pragma mark progress & activity
