@@ -155,6 +155,13 @@ typedef JDStatusBarStyle * (^JDPrepareStyleBlock)(JDStatusBarStyle *style);
 + (void)showActivityIndicator:(BOOL)show
                indicatorStyle:(UIActivityIndicatorViewStyle)style;
 
+/**
+ * Shows a image view in front of the notification text
+ *
+ * @param image The image to display
+ */
++ (void)showImage:(UIImage *)image;
+
 #pragma mark state
 
 /**

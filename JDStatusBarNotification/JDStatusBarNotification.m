@@ -125,6 +125,11 @@
     [[JDStatusBarNotification sharedInstance] showActivityIndicator:show indicatorStyle:style];
 }
 
++ (void)showImage:(UIImage *)image
+{
+    [[JDStatusBarNotification sharedInstance] showImage:image];
+}
+
 + (BOOL)isVisible;
 {
     return [[JDStatusBarNotification sharedInstance] isVisible];
@@ -401,6 +406,17 @@
         self.topBar.activityIndicatorView.activityIndicatorViewStyle = style;
     } else {
         [self.topBar.activityIndicatorView stopAnimating];
+    }
+}
+
+- (void)showImage:(UIImage *)image
+{
+    if (_topBar == nil) return;
+    
+    if (image) {
+        self.topBar.imageView.image = image;
+    } else {
+        self.topBar.imageView.image = nil;
     }
 }
 

@@ -11,6 +11,7 @@
 @interface JDStatusBarView ()
 @property (nonatomic, strong) UILabel *textLabel;
 @property (nonatomic, strong) UIActivityIndicatorView *activityIndicatorView;
+@property (nonatomic, strong) UIImageView *imageView;
 @end
 
 @implementation JDStatusBarView
@@ -41,6 +42,15 @@
     return _activityIndicatorView;
 }
 
+- (UIImageView *)imageView {
+    if (_imageView == nil) {
+        _imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0.f, 0.f, 20.f, 20.f)];
+        _imageView.contentMode = UIViewContentModeCenter;
+        [self addSubview:_imageView];
+    }
+    return _imageView;
+}
+
 #pragma mark setter
 
 - (void)setTextVerticalPositionAdjustment:(CGFloat)textVerticalPositionAdjustment;
@@ -60,12 +70,21 @@
                                       self.bounds.size.width, self.bounds.size.height-1);
     
     // activity indicator
-    if (_activityIndicatorView ) {
+    if (_activityIndicatorView) {
         CGSize textSize = [self currentTextSize];
         CGRect indicatorFrame = _activityIndicatorView.frame;
         indicatorFrame.origin.x = round((self.bounds.size.width - textSize.width)/2.0) - indicatorFrame.size.width - 8.0;
         indicatorFrame.origin.y = ceil(1+(self.bounds.size.height - indicatorFrame.size.height)/2.0);
         _activityIndicatorView.frame = indicatorFrame;
+    }
+    
+    // image view
+    if (_imageView) {
+        CGSize textSize = [self currentTextSize];
+        CGRect imageViewFrame = _imageView.frame;
+        imageViewFrame.origin.x = round((self.bounds.size.width - textSize.width)/2.0) - imageViewFrame.size.width - 1.0;
+        imageViewFrame.origin.y = ceil(1+(self.bounds.size.height - imageViewFrame.size.height)/2.0);
+        _imageView.frame = imageViewFrame;
     }
 }
 
