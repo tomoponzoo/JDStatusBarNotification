@@ -59,6 +59,19 @@
     [self setNeedsLayout];
 }
 
+- (void)setShadow:(BOOL)shadow
+{
+    _shadow = shadow;
+    
+    if (_shadow) {
+        self.layer.masksToBounds = NO;
+        self.layer.shadowOffset = CGSizeMake(0, 1);
+        self.layer.shadowRadius = 2.0;
+        self.layer.shadowOpacity = 0.8;
+        self.layer.shadowPath = [UIBezierPath bezierPathWithRect:self.layer.bounds].CGPath;
+    }
+}
+
 #pragma mark layout
 
 - (void)layoutSubviews;
@@ -85,6 +98,11 @@
         imageViewFrame.origin.x = round((self.bounds.size.width - textSize.width)/2.0) - imageViewFrame.size.width - 1.0;
         imageViewFrame.origin.y = ceil(1+(self.bounds.size.height - imageViewFrame.size.height)/2.0);
         _imageView.frame = imageViewFrame;
+    }
+    
+    // shadow
+    if (_shadow) {
+        self.layer.shadowPath = [UIBezierPath bezierPathWithRect:self.layer.bounds].CGPath;
     }
 }
 

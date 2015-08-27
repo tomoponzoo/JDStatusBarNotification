@@ -13,4 +13,5 @@
 @property (nonatomic, strong, readonly) UIActivityIndicatorView *activityIndicatorView;
 @property (nonatomic, strong, readonly) UIImageView *imageView;
 @property (nonatomic, assign) CGFloat textVerticalPositionAdjustment;
+@property (nonatomic, assign) BOOL shadow;
 @end
