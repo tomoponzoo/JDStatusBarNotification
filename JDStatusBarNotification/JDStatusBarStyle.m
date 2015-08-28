@@ -29,6 +29,11 @@ NSString *const JDStatusBarStyleDark    = @"JDStatusBarStyleDark";
     style.progressBarColor = self.progressBarColor;
     style.progressBarHeight = self.progressBarHeight;
     style.progressBarPosition = self.progressBarPosition;
+    style.barShadow = self.barShadow;
+    style.barShadowColor = self.barShadowColor;
+    style.barShadowOffset = self.barShadowOffset;
+    style.barShadowOpacity = self.barShadowOpacity;
+    style.barShadowRadius = self.barShadowRadius;
     return style;
 }
 
@@ -50,6 +55,11 @@ NSString *const JDStatusBarStyleDark    = @"JDStatusBarStyleDark";
     style.textColor = [UIColor grayColor];
     style.font = [UIFont systemFontOfSize:12.0];
     style.animationType = JDStatusBarAnimationTypeMove;
+    style.barShadow = true;
+    style.barShadowColor = [UIColor blackColor];
+    style.barShadowOffset = CGSizeMake(0.f, 1.f);
+    style.barShadowOpacity = 0.8;
+    style.barShadowRadius = 2.0;
     
     // JDStatusBarStyleDefault
     if ([styleName isEqualToString:JDStatusBarStyleDefault]) {

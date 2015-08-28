@@ -235,6 +235,18 @@
         textLabel.shadowOffset = CGSizeZero;
     }
     
+    // bar shadow
+    self.topBar.barShadow = style.barShadow;
+    
+    if (style.barShadow) {
+        self.topBar.layer.masksToBounds = NO;
+        self.topBar.layer.shadowColor = style.barShadowColor.CGColor;
+        self.topBar.layer.shadowOffset = style.barShadowOffset;
+        self.topBar.layer.shadowOpacity = style.barShadowOpacity;
+        self.topBar.layer.shadowRadius = style.barShadowRadius;
+        self.topBar.layer.shadowPath = [UIBezierPath bezierPathWithRect:self.topBar.layer.bounds].CGPath;
+    }
+    
     // reset progress & activity
     self.progress = 0.0;
     [self showActivityIndicator:NO indicatorStyle:0];

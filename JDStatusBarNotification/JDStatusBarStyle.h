@@ -67,5 +67,11 @@ typedef NS_ENUM(NSInteger, JDStatusBarProgressBarPosition) {
 /// The position of the progress bar. Default is JDStatusBarProgressBarPositionBottom
 @property (nonatomic, assign) JDStatusBarProgressBarPosition progressBarPosition;
 
+@property (nonatomic, assign) BOOL barShadow;
+@property (nonatomic, strong) UIColor *barShadowColor;
+@property (nonatomic, assign) CGSize barShadowOffset;
+@property (nonatomic, assign) CGFloat barShadowRadius;
+@property (nonatomic, assign) CGFloat barShadowOpacity;
+
 @end
 

@@ -59,19 +59,6 @@
     [self setNeedsLayout];
 }
 
-- (void)setShadow:(BOOL)shadow
-{
-    _shadow = shadow;
-    
-    if (_shadow) {
-        self.layer.masksToBounds = NO;
-        self.layer.shadowOffset = CGSizeMake(0, 1);
-        self.layer.shadowRadius = 2.0;
-        self.layer.shadowOpacity = 0.8;
-        self.layer.shadowPath = [UIBezierPath bezierPathWithRect:self.layer.bounds].CGPath;
-    }
-}
-
 #pragma mark layout
 
 - (void)layoutSubviews;
@@ -101,7 +88,7 @@
     }
     
     // shadow
-    if (_shadow) {
+    if (_barShadow) {
         self.layer.shadowPath = [UIBezierPath bezierPathWithRect:self.layer.bounds].CGPath;
     }
 }
